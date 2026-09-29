@@ -1,0 +1,18 @@
+{
+  "name": "maple-boss-bot",
+  "version": "1.0.0",
+  "description": "메이플스토리 숙제 체크 + 보스 수익 계산 디스코드 봇",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.3"
+  }
+}
